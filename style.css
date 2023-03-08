@@ -66,11 +66,11 @@ article:nth-child(even){
 }
 
 article:first-child h2::before{
-    content: "NEW!!!";
+    content: "NEW!!!  ";
 }
 
 article:nth-child(2) h2::before{
-    content: "NEW!!!";
+    content: "NEW!!!  ";
 }
 
 article a{
