@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-color: azure;
+    background: url('https://images.unsplash.com/photo-1677770068708-b41ad2bc5d3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1Mjh8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60') bottom no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: rgb(34, 95, 95);
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h2{
+    color: darkred;
+    margin-bottom: 5px;
+}
+
+.news{
+   padding: 50px 0 32px;
+}
+
+.about{
+    background-color: antiquewhite; 
+    padding: 50px 0 32px;
+    margin: 0 auto 32px;
+ }
+
+.reclame {
+    background-color: antiquewhite;
+    padding: 50px 0 32px;
+    margin: 0 auto 32px;
+}
+
+.contacts {
+    background-color: antiquewhite;
+    padding: 50px 0 32px;
+    margin: 0 auto 32px;
+}
+
+.vacancies {
+    background-color: antiquewhite;
+    padding: 50px 0 32px;
+    margin: 0 auto 32px;
+}
+
+article{
+    width: 768px;
+    margin: 0 auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1px solid rgb(128, 128, 128);
+    text-align: justify;
+}
+
+article:nth-child(even){
+    background-color: antiquewhite;
+}
+
+article:first-child h2::before{
+    content: "NEW!!!";
+}
+
+article:nth-child(2) h2::before{
+    content: "NEW!!!";
+}
+
+article a{
+    color: brown;
+    text-decoration: none;
+}
+
+article a:hover{
+    color: darkolivegreen;
+}
+
+article h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 5px;
+}
+
+.article-meta{
+    color: darkred;
+    margin-bottom: 5px;
+}
+
+article img{
+    size: 300px auto;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+footer .links {
+    margin-bottom: 50px;
+}
+
+footer .links >a {
+    color: blueviolet;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.copyright{
+    color: darkgreen;
+    font-family: 'Times New Roman', Times, serif;
+}
